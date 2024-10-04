@@ -1,0 +1,344 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #4db5e6;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+    font-family: "Kanit", sans-serif;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav li a{
+    color: rgb(228, 216, 57);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #e9e9e9;
+    text-decoration: none;
+}
+
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 95px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    
+}
+
+.iconos a {
+    margin: 0 10px;
+    color:  rgb(228, 216, 57);
+    font-size: 18px;
+}
+.iconos a:hover {
+   
+    color: #e9e9e9;
+    
+}
+
+
+/* aquì se implementan los estilos css para la seccion uno*/
+
+.principal {
+    background-image: url('../imagen/fondo-auto-section01.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidouno {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.contenidouno h1{
+    margin-top: 200px;
+    margin-bottom: 35px;
+    font-family: "Protest Strike", sans-serif;
+    letter-spacing: 3px;
+    color: #96c7d6;
+    font-size: 40px;
+    text-shadow: 0px 4px 5px rgb(236, 85, 85);
+    text-decoration: underline;
+}
+
+.contenidouno h2{
+    margin-bottom: 25px;
+    font-family: "Protest strike", sans-serif;
+    letter-spacing: 4px;
+    color: #fdc79a;
+    font-size: 32px;
+    text-shadow: 0px 4px 5px rgb(140, 206, 236);
+}
+
+.contenidouno p{
+    margin-bottom: 50px;
+    font-family: "Fredoka", sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #fdfdfdb6;
+    font-style: italic;
+}
+
+.buttons {
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+
+}
+
+.button {
+    background-color: #f89494;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 55px;
+    font-size: 16px;
+    margin: 0 30px;
+    font-family: "Kanit",sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.button:hover {
+    background-color: #f7bc86;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 55px;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+
+/*estilos para el contenido dos*/
+
+.banner {
+    background-image: url('../imagen/aurora-boreal-section02.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.contenidodos h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: "protest Striker",sans-serif;
+    color: #83bdff;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+
+.figuras {
+    display: flex;
+    justify-content: center;
+}
+
+.figuras a {
+    margin: 0 10px;
+    color: #ebb045;
+    font-size: 50px;
+}
+.figuras a:hover {
+   
+    color: #ff0000;
+    
+}
+
+
+
+
+/*creando la seccion 03 del contenido de la pagina*/
+
+  .galeria {
+    background-color: #e4c640;
+    padding: 50px 0;
+    border-radius: 5px;
+   
+    }
+
+  .galeria h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-family: "Protest Strike",sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+  .galeria p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    line-height:5px ;
+    margin-bottom: 10px;
+    font-family: "Outfit", sans-serif;
+    font-style: italic;
+    letter-spacing: 2px;
+
+  }
+
+  .contenidotres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+
+  .contenidotres .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contenidotres .columna img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #04416a;
+    padding: 5px;
+    border-radius: 4px;
+    
+  }
+
+  .contenidotres .columna p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+  }
+
+  .contenidotres .columna a {
+    display: inline-block;
+    padding: 5px 30px;
+    background-color: #81adf0;
+    color: #e6e4e4;
+    text-decoration: none;
+    border: 1px solid #030303;
+    border-radius: 35px;
+    margin-top: 15px;
+    font-family: "Kanit",sans-serif;
+  }
+
+  .contenidotres .columna a:hover {
+    background-color: #b31b00;
+  }
+
+
+  
+  /*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    background-color: #4db5e6;
+    color: #dddddd;
+    padding: 20px;
+    font-family: "Outfit", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+  }
+  
+  .filas{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  h3, p {
+    color: #312424;
+    margin: 0px;
+  }
+  
+  .social-icons1 {
+    display: flex;
+  }
+  
+
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons {
+    list-style: none;
+    padding: 5px;
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #d5f0f4;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #f74a1f; /* Cambia esto según el color que desees para el hover */
+}
+.footer p {
+    text-align: center;
+}
+
+  
